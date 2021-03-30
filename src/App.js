@@ -1,9 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+import styled from 'styled-components'
 
-function App() {
+const Banner = styled.div`
+  height: 30px;
+  background-color: red;
+`
+
+function App () {
   return (
     <div className="App">
+      <Banner />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +27,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

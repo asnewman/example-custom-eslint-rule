@@ -1,0 +1,11 @@
+{
+  "name": "eslint-plugin-prefixed-styled-components",
+  "version": "1.0.0",
+  "description": "Lint rule for prefixed Styled Components",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^7.2.6",
+    "eslint": "^7.21.0"
+  }
+}
